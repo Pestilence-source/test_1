@@ -9,6 +9,6 @@ def test_func(x):
     print(x)
 
 
-def test_func_2(x: [int, float], y: [int, float]) -> [int, float]:
+def test_func_1(x: [int, float], y: [int, float]) -> [int, float]:
     res = x + y
     return res
