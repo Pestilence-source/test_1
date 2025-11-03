@@ -4,5 +4,11 @@ res = d1 + d2
 print(res)
 print('Добавил первый пользователь')
 
+
 def test_func(x):
     print(x)
+
+
+def test_func_1(x: [int, float], y: [int, float]) -> [int, float]:
+    res = x + y
+    return res
